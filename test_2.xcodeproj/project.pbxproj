@@ -16,6 +16,7 @@
 		362F809123CB19B000F1E5E3 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362F809023CB19B000F1E5E3 /* webViewController.swift */; };
 		362F809323CB41B500F1E5E3 /* screen1_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362F809223CB41B500F1E5E3 /* screen1_ViewController.swift */; };
 		362F809523CB41F800F1E5E3 /* screen2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362F809423CB41F800F1E5E3 /* screen2_ViewController.swift */; };
+		362F809723CB944A00F1E5E3 /* gestureTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362F809623CB944A00F1E5E3 /* gestureTapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		362F809023CB19B000F1E5E3 /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
 		362F809223CB41B500F1E5E3 /* screen1_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen1_ViewController.swift; sourceTree = "<group>"; };
 		362F809423CB41F800F1E5E3 /* screen2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen2_ViewController.swift; sourceTree = "<group>"; };
+		362F809623CB944A00F1E5E3 /* gestureTapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gestureTapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				362F808023CAEB8A00F1E5E3 /* ViewController.swift */,
 				362F809023CB19B000F1E5E3 /* webViewController.swift */,
 				362F808223CAEB8A00F1E5E3 /* Main.storyboard */,
+				362F809623CB944A00F1E5E3 /* gestureTapViewController.swift */,
 				362F809423CB41F800F1E5E3 /* screen2_ViewController.swift */,
 				362F809223CB41B500F1E5E3 /* screen1_ViewController.swift */,
 				362F808523CAEB8E00F1E5E3 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 			files = (
 				362F808123CAEB8A00F1E5E3 /* ViewController.swift in Sources */,
 				362F807D23CAEB8A00F1E5E3 /* AppDelegate.swift in Sources */,
+				362F809723CB944A00F1E5E3 /* gestureTapViewController.swift in Sources */,
 				362F809323CB41B500F1E5E3 /* screen1_ViewController.swift in Sources */,
 				362F809523CB41F800F1E5E3 /* screen2_ViewController.swift in Sources */,
 				362F807F23CAEB8A00F1E5E3 /* SceneDelegate.swift in Sources */,

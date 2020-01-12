@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="k1B-6f-UZv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GiD-Yp-avA">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
@@ -104,7 +104,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ll-ef-8eK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2389.8550724637685" y="99.776785714285708"/>
+            <point key="canvasLocation" x="1909" y="98"/>
         </scene>
         <!--Screen2 View Controller-->
         <scene sceneID="GkG-nI-KLe">
@@ -141,7 +141,31 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aye-Wf-EkL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3211.594202898551" y="93.75"/>
+            <point key="canvasLocation" x="2759" y="98"/>
+        </scene>
+        <!--Gesture Tap View Controller-->
+        <scene sceneID="jXX-Rm-OBz">
+            <objects>
+                <viewController id="GiD-Yp-avA" customClass="gestureTapViewController" customModule="test_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sio-Bj-fBH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="nfj-OA-zQA"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="yPB-fZ-w3D" appends="YES" id="xK0-Zg-d3C"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tSW-od-mBg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="yPB-fZ-w3D">
+                    <connections>
+                        <action selector="gestureTap:" destination="GiD-Yp-avA" id="WUD-d4-Rr1"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="3648" y="98"/>
         </scene>
     </scenes>
 </document>
